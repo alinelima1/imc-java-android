@@ -1,0 +1,72 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="aula.calculoimc"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->/home/aline/Documentos/Computação/AndroidStudioProjects/CalculoIMC/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->/home/aline/Documentos/Computação/AndroidStudioProjects/CalculoIMC/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/home/aline/Documentos/Computação/AndroidStudioProjects/CalculoIMC/app/src/main/AndroidManifest.xml:5:5-25:19
+12        android:allowBackup="true"
+12-->/home/aline/Documentos/Computação/AndroidStudioProjects/CalculoIMC/app/src/main/AndroidManifest.xml:6:9-35
+13        android:debuggable="true"
+14        android:icon="@mipmap/ic_launcher"
+14-->/home/aline/Documentos/Computação/AndroidStudioProjects/CalculoIMC/app/src/main/AndroidManifest.xml:7:9-43
+15        android:label="@string/app_name"
+15-->/home/aline/Documentos/Computação/AndroidStudioProjects/CalculoIMC/app/src/main/AndroidManifest.xml:8:9-41
+16        android:roundIcon="@mipmap/ic_launcher_round"
+16-->/home/aline/Documentos/Computação/AndroidStudioProjects/CalculoIMC/app/src/main/AndroidManifest.xml:9:9-54
+17        android:supportsRtl="true"
+17-->/home/aline/Documentos/Computação/AndroidStudioProjects/CalculoIMC/app/src/main/AndroidManifest.xml:10:9-35
+18        android:testOnly="true"
+19        android:theme="@style/AppTheme" >
+19-->/home/aline/Documentos/Computação/AndroidStudioProjects/CalculoIMC/app/src/main/AndroidManifest.xml:11:9-40
+20        <activity android:name="aula.calculoimc.MainActivity" >
+20-->/home/aline/Documentos/Computação/AndroidStudioProjects/CalculoIMC/app/src/main/AndroidManifest.xml:12:9-18:20
+20-->/home/aline/Documentos/Computação/AndroidStudioProjects/CalculoIMC/app/src/main/AndroidManifest.xml:12:19-47
+21            <intent-filter>
+21-->/home/aline/Documentos/Computação/AndroidStudioProjects/CalculoIMC/app/src/main/AndroidManifest.xml:13:13-17:29
+22                <action android:name="android.intent.action.MAIN" />
+22-->/home/aline/Documentos/Computação/AndroidStudioProjects/CalculoIMC/app/src/main/AndroidManifest.xml:14:17-69
+22-->/home/aline/Documentos/Computação/AndroidStudioProjects/CalculoIMC/app/src/main/AndroidManifest.xml:14:25-66
+23
+24                <category android:name="android.intent.category.LAUNCHER" />
+24-->/home/aline/Documentos/Computação/AndroidStudioProjects/CalculoIMC/app/src/main/AndroidManifest.xml:16:17-77
+24-->/home/aline/Documentos/Computação/AndroidStudioProjects/CalculoIMC/app/src/main/AndroidManifest.xml:16:27-74
+25            </intent-filter>
+26        </activity>
+27        <activity android:name="aula.calculoimc.Resultado" >
+27-->/home/aline/Documentos/Computação/AndroidStudioProjects/CalculoIMC/app/src/main/AndroidManifest.xml:19:9-24:20
+27-->/home/aline/Documentos/Computação/AndroidStudioProjects/CalculoIMC/app/src/main/AndroidManifest.xml:19:19-44
+28            <intent-filter>
+28-->/home/aline/Documentos/Computação/AndroidStudioProjects/CalculoIMC/app/src/main/AndroidManifest.xml:20:13-23:29
+29                <action android:name="resultado" />
+29-->/home/aline/Documentos/Computação/AndroidStudioProjects/CalculoIMC/app/src/main/AndroidManifest.xml:21:17-51
+29-->/home/aline/Documentos/Computação/AndroidStudioProjects/CalculoIMC/app/src/main/AndroidManifest.xml:21:25-49
+30
+31                <category android:name="android.intent.category.DEFAULT" />
+31-->/home/aline/Documentos/Computação/AndroidStudioProjects/CalculoIMC/app/src/main/AndroidManifest.xml:22:17-75
+31-->/home/aline/Documentos/Computação/AndroidStudioProjects/CalculoIMC/app/src/main/AndroidManifest.xml:22:27-73
+32            </intent-filter>
+33        </activity>
+34
+35        <meta-data
+35-->[com.android.support:appcompat-v7:26.1.0] /home/aline/.gradle/caches/transforms-2/files-2.1/3c115bd9f6556a7430ab54a2645aa55d/appcompat-v7-26.1.0/AndroidManifest.xml:26:9-28:38
+36            android:name="android.support.VERSION"
+36-->[com.android.support:appcompat-v7:26.1.0] /home/aline/.gradle/caches/transforms-2/files-2.1/3c115bd9f6556a7430ab54a2645aa55d/appcompat-v7-26.1.0/AndroidManifest.xml:27:13-51
+37            android:value="26.1.0" />
+37-->[com.android.support:appcompat-v7:26.1.0] /home/aline/.gradle/caches/transforms-2/files-2.1/3c115bd9f6556a7430ab54a2645aa55d/appcompat-v7-26.1.0/AndroidManifest.xml:28:13-35
+38        <meta-data
+38-->[android.arch.lifecycle:runtime:1.0.0] /home/aline/.gradle/caches/transforms-2/files-2.1/cbd00f137ffe055a54edb27e1642d0f7/runtime-1.0.0/AndroidManifest.xml:25:9-27:47
+39            android:name="android.arch.lifecycle.VERSION"
+39-->[android.arch.lifecycle:runtime:1.0.0] /home/aline/.gradle/caches/transforms-2/files-2.1/cbd00f137ffe055a54edb27e1642d0f7/runtime-1.0.0/AndroidManifest.xml:26:13-58
+40            android:value="27.0.0-SNAPSHOT" />
+40-->[android.arch.lifecycle:runtime:1.0.0] /home/aline/.gradle/caches/transforms-2/files-2.1/cbd00f137ffe055a54edb27e1642d0f7/runtime-1.0.0/AndroidManifest.xml:27:13-44
+41    </application>
+42
+43</manifest>
